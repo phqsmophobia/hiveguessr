@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='headersec'>
+        <h1>Hive.Guessr</h1>
+      </div>
+      <div className='bodysec'>
+        <h1>body</h1>
+      </div>
+      <footer className="footersec">
+        <p>Hive.Guessr has <b>NO</b> affiliation with Hive, it is a fan-made Project.</p>
+        <div className='footbuttons'>
+          <button>About</button>
+          <button>Contact</button>
+        </div>
+      </footer>
     </div>
   );
 }
